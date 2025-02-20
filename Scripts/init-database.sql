@@ -1,4 +1,7 @@
 -- Data Warehouse Initialization Script
+-- WARNING: This script will delete the existing DATAWAREHOUSE database if it exists.
+-- Ensure you have backups before running this script.
+--
 -- This script sets up a SQL Server database for a Data Warehouse project.
 -- It follows a three-layer schema architecture: Bronze (raw data), Silver (cleaned data), and Gold (aggregated data).
 
